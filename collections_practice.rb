@@ -60,16 +60,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  i = 0
+  
   array.collect do |word|
-    if i = 1
-      i += 1
-    else
-      word << "s"
-binding.pry
-      i += 1
-    end
-  end
+    for 0..array.length
+      
   array
 end
     
