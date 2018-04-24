@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -66,6 +68,8 @@ def add_s(array)
       word << "s"
       i += 1
     end
+    binding.pry
   end
+  array
 end
     
