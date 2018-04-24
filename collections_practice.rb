@@ -11,4 +11,6 @@ def sort_array_desc(array)
   new_array
 end
 
-def sort_array_char_count
+def sort_array_char_count(array)
+  array.collect do |a, b|
+    
