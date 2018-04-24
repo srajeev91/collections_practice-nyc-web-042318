@@ -13,4 +13,4 @@ end
 
 def sort_array_char_count(array)
   array.collect do |a, b|
-    
+    if
