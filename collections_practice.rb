@@ -48,3 +48,11 @@ def find_a(array)
   end
   new_array
 end
+
+def sum_array(array)
+  sum = 0
+  array.collect do |num|
+    sum += num
+  end
+  sum
+end
