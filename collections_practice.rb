@@ -5,6 +5,8 @@ end
 def sort_array_desc(array)
   new_array = []
   array = array.sort
-  new_array<< array.pop()
+  while array.length > 0
+    new_array<< array.pop()
+  end
   new_array
 end
