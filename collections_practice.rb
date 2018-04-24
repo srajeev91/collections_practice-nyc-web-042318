@@ -67,8 +67,8 @@ def add_s(array)
     else
       word << "s"
       i += 1
+      binding.pry
     end
-    binding.pry
   end
   array
 end
