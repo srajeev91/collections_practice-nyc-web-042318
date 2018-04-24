@@ -34,6 +34,6 @@ end
 
 def kesha_maker(array)
   array.collect do |word, index|
-    word[2] = "$"
+    word[index][2] = "$"
   end
 end
